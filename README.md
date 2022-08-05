@@ -19,7 +19,11 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 
+This needs to use `ruby v3.1.2`. If you get an error about `require': cannot load such file -- webrick `, then you'll need to run `bundle add webrick` to get this working.
+
 # Deployment
+
+TODO
 
 ## License
 Klisé is minimalist Jekyll theme for running a personal site and blog running on Jekyll.<br>
